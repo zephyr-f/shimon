@@ -1,0 +1,40 @@
+    * {font-size: large}
+    body {
+    direction: rtl;
+    font-family: sans-serif;
+    }
+    table {
+    box-sizing: content-box;
+    width: auto;
+    }
+
+    table, td {
+      border: 1px solid gray;
+      border-collapse: collapse;
+    }
+      .accordion {
+        direction: rtl;
+        text-align: center;
+        background-color: #99b8d8;
+        color: #333;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        outline: none;
+        /* font-size: 1em; */
+        font-family: "Arial", sans-serif;
+        transition: 0.4s;
+      }
+
+      .active,
+      .accordion:hover {
+        background-color: #ccc;
+      }
+
+      .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+      }
