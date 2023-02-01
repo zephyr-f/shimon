@@ -1,11 +1,11 @@
-    * {font-size: large}
+    * {font-size:calc(16px + 1vw)}
     body {
     direction: rtl;
     font-family: sans-serif;
     }
     table {
     box-sizing: content-box;
-  width: 100%;
+  width: auto;
     }
 
     table, td {
