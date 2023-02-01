@@ -5,7 +5,7 @@
     }
     table {
     box-sizing: content-box;
-    width: auto;
+  width: 100%;
     }
 
     table, td {
