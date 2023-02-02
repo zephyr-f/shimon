@@ -1,5 +1,6 @@
     * {font-size:calc(16px + 1vw)}
     body {
+    background-color: unset;
     direction: rtl;
     font-family: sans-serif;
     }
@@ -37,4 +38,10 @@
         display: none;
         background-color: white;
         overflow: hidden;
+      }
+      .YTiframe {
+        width: 100%;
+        max-width: 100vw;
+        height: 56.25vw;
+        max-height: 90vh;
       }
